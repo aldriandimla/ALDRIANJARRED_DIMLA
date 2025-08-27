@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+    <legend><b>Personal Information</b></legend>
+    <label for="fullname"><i>Fullname</i><b>:</b></label>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter Fullname"><br>
+
+    <label for="email"><i>Email Address</i><b>:</b></label>
+    <input
+    type="email" 
+    id="email" 
+    name="email"
+    placeholder="Enter email"><br>
+
+    <label for="Birthdate"><i>Date of Birth</i><b>:</b></label>
+    <input type="date" id="Birthdate" name="Birthdate">
+    </fieldset>
+
+    
+     <fieldset>
+    <legend><b>Account Details</b></legend>
+    <label for="username"><i>Username</i><b>:</b></label>
+    <input type="text" id="username" name="username"placeholder="Enter Username"><br>
+
+    
+    <label for="password"><i>password</i><b>:</b></label>
+    <input type="password" id="Password" name="Password" placeholder="Enter password"><br>
+    </fieldset>
+
+   
+
+     <fieldset>
+    <legend><b>Preference</b></legend>
+    <label for="Subcription"><b>Subcription Plan:</b></label>
+    <select id="Subcription" name="Subcription">
+    <option value="">-</option>
+    <option value="free">Free</option>
+    <option value="Basic">basic</option>
+    <option value="ftandard">Standard</option></select><br>
+
+     <p></p>
+    
+    <legend><b>Notification Reference:</b></legend>
+    <input type="checkbox" id="Email" name="Notification Pref" value="Email">
+    <label for="Email"><i>Email</i></label>
+    <input type="checkbox" id="SMS" name="Notification Pref" value="SMS">
+    <label for="SMS"><i>SMS</i></label>
+    <input type="checkbox" id="Push Notification" name="Notification Pref" value="Push Notification">
+    <label for="Push Notification"><i>Push Notifications</i></label><br>
+     </fieldset>
+    
+     <fieldset>
+    <legend><b>Additional Information</b></legend>
+    <label for="Brief Bio"><i>Brief Bio</i><b>:</b></label>
+        <textarea id="Brief Bio" name="Brief Bio" rows="5" cols="70">  
+     </textarea>
+     <p></p>
+
+     <legend><b>How did you hear about us?</b></legend>
+     <input type="radio" id="Social Media" name="plan" value="Social Media" checked>
+     <label for="Socia Media"><i>Social Media</i></label>
+     <input type="radio" id="Friend" name="plan" value="Friend" checked>
+     <label for="Friend"><i>Friend</i></label>
+     <input type="radio" id="Search Engine" name="plan" value="Search Engine" checked>
+     <label for="Search Engine"><i>Search Engine</i></label>
+     <input type="radio" id="Other" name="plan" value="Other" checked>
+     <label for="Other"><i>Other</i></label>
+     </fieldset>
+
+</body>
+</html>
+
